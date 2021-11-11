@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -470,4 +472,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/nutthaphon/OneDrive/Unity/Essentials 3D project/android_sample2.apk
+  playerPath: D:/GitHub/Essentials-3D-project/build/android/app.apk
